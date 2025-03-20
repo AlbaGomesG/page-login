@@ -1,0 +1,36 @@
+.container {
+    background-image: url("https://img.freepik.com/vetores-gratis/estilo-gradiente-de-fundo-verde_23-2148362971.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vh;
+}
+
+.title {
+    font-size: 6vh;
+    margin: 2vh;
+}
+
+.text {
+    margin: 2vh;
+}
+
+.information {
+    display: flex;
+    flex-direction: column; 
+    padding: 15vh;
+    gap: 2vh;
+}
+
+.input {
+    background-color: rgb(97, 235, 212);
+    color: white;
+    width: 50vh;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 2px solid #338b85;
+}
